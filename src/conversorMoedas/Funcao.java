@@ -14,10 +14,10 @@ public class Funcao {
     public void converterMoeda(double valorRecebido) {
         String opcao = (JOptionPane.showInputDialog(null,
                 "Escolha a moeda que você quer converter!", "Moedas", JOptionPane.PLAIN_MESSAGE, null,
-                new Object[] { "De Reais a Dólares", "De Reais a Euros", "De Reais a Libras",
-                        "De Reais a Peso Argentino", "De Reais a Peso Chileno", "De Dólares a Reais",
-                        "De Euros a Reais", "De Libras a Reais", "De Peso Argentino a Reais",
-                        "De Peso Chileno a Reais" },
+                new Object[] { "Reais para Dólares", "Reais para Euros", "Reais para Libras",
+                        "Reais para Pesos Argentino", "Reais para Pesos Chileno", "Dólares para Reais",
+                        "Euros para Reais", "Libras para Reais", "Pesos Argentino para Reais",
+                        "Pesos Chileno para Reais" },
                 "Escolha")).toString();
 
         switch (opcao) {
