@@ -6,6 +6,7 @@
 
 <p aling="center" >
      <img wigth="600" heigth="600" src="imagens/Captura de tela 2023-04-19 041742.png">
+</P>     
 
 ### Conversor de Moedas do Programa Alura-One. 
 
