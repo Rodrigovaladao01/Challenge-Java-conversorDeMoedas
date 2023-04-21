@@ -1,66 +1,75 @@
 ### Conversor de Moedas
 
-img src="https://github.com/Rodrigovaladao01/Challenge-Java-conversorDeMoedas/blob/master/imagens/Captura%20de%20tela%202023-04-19%20041035.png" alt="Java" />
+![Java](https://github.com/Rodrigovaladao01/Challenge-Java-conversorDeMoedas/blob/master/imagens/Captura%20de%20tela%202023-04-19%20041035.png)
 
-img src="https://github.com/Rodrigovaladao01/Challenge-Java-conversorDeMoedas/blob/master/imagens/Captura%20de%20tela%202023-04-19%20041742.png" alt="Java" />
-
+![Java](https://github.com/Rodrigovaladao01/Challenge-Java-conversorDeMoedas/blob/master/imagens/Captura%20de%20tela%202023-04-19%20041742.png)
 
 
 ## Sobre o projeto 
-    Este é um projeto de conversão de moedas desenvolvido em Java. Ele permite que os usuários convertam uma quantidade de dinheiro de uma moeda para outra.
+Este é um projeto de conversão de moedas desenvolvido em Java. Ele permite que os usuários convertam uma quantidade de dinheiro de uma moeda para outra.
 
 ## Instalação
-
 Para instalar este projeto, siga estas etapas:
 
+1. Certifique-se de ter o Java instalado em sua máquina.
+2. Baixe ou clone este repositório em seu computador.
+3. Abra o prompt de comando ou terminal no diretório raiz do projeto.
+4. Compile o código digitando o seguinte comando:
 
-    1-Certifique-se de ter o Java instalado em sua máquina.
-    2-Baixe ou clone este repositório em seu computador.
-    3-Abra o prompt de comando ou terminal no diretório raiz do projeto.
-    4-Compile o código digitando o seguinte comando:
-
-## Execute o programa digitando o seguinte comando:
-
-    ```bash
-        java -jar ConversorMoedas.jar
-    ```
+```bash
+    javac ConversorMoedas.java
+```
 
 
 ## Uso
-
 Para usar este projeto, siga estas etapas:
 
-    1-Insira o valor a ser convertido.
-    2-Insira a moeda de origem.
-    3-Insira a moeda de destino.
-    4-Clique no botão "Converter".
-    5-O resultado será exibido na tela.
+1. Execute o código digitando o seguinte comando:
+
+```bash
+    java ConversorMoedas
+```
+
+2. Digite a quantidade de dinheiro que você deseja converter.
+3. Digite a moeda de origem.
+4. Digite a moeda de destino.
+5. O resultado da conversão será exibido na tela.
+
+## Tecnologias utilizadas
+
+    Java 8
+    Eclipse IDE
+    Git e GitHub
+    Windows 10
 
 
 ## Contribuição
-
 Para contribuir com este projeto, siga estas etapas:
 
-    1-Faça um fork deste repositório.
-    2-Crie uma branch: git checkout -b <nome_da_branch>.
-    3-Faça suas alterações e confirme-as: git commit -m '<mensagem_do_commit>'.
-    4-Envie para a branch original: git push origin <nome_da_branch>.
-    5-Crie a pull request.
+1. Faça um fork deste repositório.
+2. Crie um branch: `git checkout -b <branch_name>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<commit_message>'`
+4. Envie para o branch original: `git push origin <project_name> / <local>`
+5. Crie a solicitação de pull.
 
 
 ## Autor
+Este projeto foi desenvolvido por Rodrigo Valadão.
 
-    Este projeto foi desenvolvido por Rodrigo Valadão.
+- Linkedin: https://www.linkedin.com/in/rodrigo-valadão01/
 
 ## Licença
 
-    Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE.md para obter detalhes.
+Este projeto usa a seguinte licença: [MIT](https://choosealicense.com/licenses/mit/).
 
 
 ## Melhorias Futuras
 
-    1- Adicionar suporte a mais moedas.
-    2- Implementar um API para atualizar as taxas de câmbio automaticamente.
-    3- Melhorar a interface gráfica.
+- [ ] Implementar uma interface gráfica.
+- [ ] Implementar a conversão de mais moedas.
+- [ ] Implementar a conversão de moedas de acordo com a cotação do dia.
+
+
+
 
   
