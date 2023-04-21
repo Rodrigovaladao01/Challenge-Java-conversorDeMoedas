@@ -2,7 +2,6 @@ package conversorMoedas;
 
 import conversorMoedas.ConverteMoedas;
 import conversorMoedas.ConverteMoedasParaReais;
-
 import javax.swing.JOptionPane;
 import java.util.Objects;
 

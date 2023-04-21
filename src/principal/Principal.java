@@ -2,7 +2,6 @@ package principal;
 
 import conversorMoedas.Funcao;
 import conversorTemperatura.FuncaoTemperatura;
-
 import javax.swing.*;
 
 public class Principal {
@@ -12,7 +11,8 @@ public class Principal {
 
         while (true) {
 
-            String opcao = JOptionPane.showInputDialog(null, "Escolha uma opção ", "Menu", JOptionPane.PLAIN_MESSAGE, null, new Object[]{"Conversor de Moeda", "Conversor de Temperatura"}, "Escolha").toString();
+            String opcao = JOptionPane.showInputDialog(null, "Escolha uma opção ", "Menu", JOptionPane.PLAIN_MESSAGE,
+                    null, new Object[] { "Conversor de Moeda", "Conversor de Temperatura" }, "Escolha").toString();
 
             switch (opcao) {
                 case "Conversor de Moeda":
@@ -55,7 +55,8 @@ public class Principal {
     public static boolean checar(String input) {
         try {
             double x = Double.parseDouble(input);
-            if (x >= 0 || x < 0) ;
+            if (x >= 0 || x < 0)
+                ;
             return true;
         } catch (NumberFormatException e) {
             return false;
